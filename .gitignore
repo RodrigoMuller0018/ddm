@@ -1,15 +1,45 @@
+# =====================
+# Arquivos da IDE
+# =====================
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# =====================
+# Arquivos locais
+# =====================
 local.properties
+/local.properties
+
+# =====================
+# Build e dependências
+# =====================
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+generated/
+output.json
+
+# =====================
+# Cache do Jetpack Compose
+# =====================
+.compose-cache/
+
+# =====================
+# Arquivos de distribuição
+# =====================
+*.apk
+*.ap_
+
+# =====================
+# Firebase (se usar)
+# =====================
+google-services.json
