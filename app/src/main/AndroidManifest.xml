@@ -12,15 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
+
+        <!-- Tela inicial: menu principal -->
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Atividade 2: Programática -->
+        <activity android:name=".ActivityTelaProgramatica"
+            android:exported="false" />
+
+        <!-- Atividade 3: LinearLayout -->
+        <activity android:name=".ActivityLinearLayout"
+            android:exported="false" />
+
+        <!-- Atividade 4: Formulário com Constraint -->
+        <activity android:name=".ActivityFormularioConstraint"
+            android:exported="false" />
+
     </application>
 
 </manifest>

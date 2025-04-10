@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">MyApplication</string>
+
+    <!-- Atividade 3 -->
+    <string name="titulo_formulario">Formulário de Cadastro</string>
+    <string name="hint_nome">Digite seu nome</string>
+    <string name="hint_email">Digite seu e-mail</string>
+    <string name="botao_enviar">Enviar</string>
+
+    <!-- Atividade 4 -->
+    <string name="hint_endereco">Endereço</string>
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_cep">CEP</string>
+    <string name="hint_aniversario">Aniversário</string>
 </resources>
