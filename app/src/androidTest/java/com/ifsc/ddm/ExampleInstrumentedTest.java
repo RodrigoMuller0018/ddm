@@ -1,4 +1,4 @@
-package com.ifsc.contaclick;
+package com.ifsc.ddm;
 
 import android.content.Context;
 
