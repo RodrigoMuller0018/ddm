@@ -7,27 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Botão para contar os cliques -->
-    <Button
-        android:id="@+id/button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:text="Clique"
+
+    <com.ifsc.ddm.SimplePaint
+        android:id="@+id/simplePaint"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonClear" />
 
-    <!-- TextView para mostrar o número de cliques -->
-    <TextView
-        android:id="@+id/contaCliquesText"
+    <Button
+        android:id="@+id/buttonClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clique contagem: 0"
-        android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@id/button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="limpa"
+        app:layout_constraintBottom_toTopOf="@+id/simplePaint"
+        app:layout_constraintEnd_toStartOf="@+id/buttonColor"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonClear"
+        app:layout_constraintTop_toTopOf="@+id/buttonClear" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

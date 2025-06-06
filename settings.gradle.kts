@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "contaClick"
+rootProject.name = "ddm"
 include(":app")
- 

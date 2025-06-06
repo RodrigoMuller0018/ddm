@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ifsc.contaclick"
+    namespace = "com.ifsc.ddm"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ifsc.contaclick"
+        applicationId = "com.ifsc.ddm"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -36,8 +36,10 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
+    implementation ("com.github.skydoves:colorpickerview:2.3.0")
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
+
